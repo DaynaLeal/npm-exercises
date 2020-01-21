@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/DaynaLeal/npm-exercises/issues"
   },
-  "homepage": "https://github.com/DaynaLeal/npm-exercises#readme"
+  "homepage": "https://github.com/DaynaLeal/npm-exercises#readme",
+  "dependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.41.5"
+  }
 }
