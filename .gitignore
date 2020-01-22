@@ -1,0 +1,8 @@
+public/main.js
+*.map
+node_modules
+
+.idea/*
+*.iml
+.DS_STORE
+js/keys.js

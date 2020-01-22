@@ -1,5 +1,11 @@
-"use strict";
+const $ = require('jquery');
+
 
 let sayHello = (name) => {
-    console.log('hello');
+    return "Hello";
 }
+console.log(sayHello());
+
+$(' h1 ').click(function (e) {
+    $(' h1 ').css('background-color', 'pink');
+});
